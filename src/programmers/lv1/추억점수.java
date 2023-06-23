@@ -14,6 +14,6 @@ class 추억점수 {
             }
         }
 
-        return answer;
+        return answer;  // 그냥 배열을 return 하면 됨
     }
 }
