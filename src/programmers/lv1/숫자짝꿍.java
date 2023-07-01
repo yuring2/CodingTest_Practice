@@ -41,6 +41,7 @@ class 숫자짝꿍 {
 
         StringBuilder sb = new StringBuilder();
         for(Integer i : list) sb.append(i);
+
         return sb.toString();
     }
 }
