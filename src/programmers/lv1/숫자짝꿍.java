@@ -16,9 +16,9 @@ class 숫자짝꿍 {
             else Ymap.put(ch,1);
         }
 
-        int tmp = Xmap.size() < Ymap.size() ? 0 : 1;
+        int temp = Xmap.size() < Ymap.size() ? 0 : 1;
 
-        if(tmp==0){
+        if(temp==0){
             for(Character c : Xmap.keySet()){
                 if(Ymap.containsKey(c)){
                     int cnt = Math.min(Xmap.get(c), Ymap.get(c));
